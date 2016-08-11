@@ -1,0 +1,265 @@
+
+body{
+	width:100%;
+    height: auto;
+    background: url(../image/bj.jpg) no-repeat no-repeat
+  ;
+ 	 background-size: 100%;
+}
+*{
+	box-sizing:border-box;
+}
+.title{
+	width: 100%;
+	height: auto;
+}
+
+.title .title_content{
+	position: absolute;
+	top: 1.05rem;
+	left: 21%;
+}
+.title .title_content .title_content_wz{
+	width: 3.37rem;
+	height: auto;
+}
+.one{
+	width: 67%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 5rem;
+	position: relative;
+	overflow: hidden;
+}
+.one .one_title{
+	min-width: 150px;
+	background: #F3E3C9;
+	font-size: 0.5rem;
+	font-family: 微软雅黑;
+	position: absolute;
+	top: 1%;
+	left: 50%;
+	transform:translateX(-50%); 
+	color: #117CA9;
+	padding: 0 0.2rem;
+	text-align: center;
+	z-index: 999;
+}
+
+.one .one_content{
+	width: 86%;
+	margin: 8% auto 7.5%;
+	overflow: hidden;
+}
+.one .one_content .one_left{
+	 width: 4.34rem;
+	 height: auto;
+	 text-align: center;
+	 overflow: hidden;
+	 position: relative;
+	 float: left;
+}
+.one .one_content .one_left:nth-child(2){
+	float: right;
+}
+.one .one_content .one_left h6{
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	transform:translateX(-50%); 
+	color: #D12B28;
+	font-size: 0.3rem;
+}
+.one .one_content .one_left .one_left_title{
+	position: absolute;
+	top: 8%;
+	left: 50%;
+	transform:translateX(-50%); 
+	color: #333333;
+	font-size: 0.2rem;
+}
+.one .one_content .one_hm{
+	width: 4.34rem;
+	height: auto;
+	float: left;
+} 
+.one .one_content .jiage{
+	width: 100%;
+	height: 0.8rem;
+	background: #40B9C4;
+	position: absolute;
+	bottom: 0;
+	text-align: left;
+	line-height: 0.6rem;
+}
+.one .one_content .jiage span:nth-child(1){
+	font-size: 0.2rem;
+	color: white;
+	padding:0 0 0rem 0.3rem;
+}
+.one .one_content .jiage span:nth-child(2){
+	font-size: 0.6rem;
+	color: white;
+	
+}
+.one .one_content .jiage a{
+	display: inline-block;
+	width: 1.2rem;
+	height: 0.5rem;
+	background: #E01B46;
+	color: white;
+	font-size: 0.2rem;
+	border-radius: 6px;
+	text-align: center;
+	line-height: 0.5rem;
+	position: absolute;
+	top: 50%;
+	transform:translateY(-50%); 
+	right: 3%;
+}
+
+/*2f*/
+.one:nth-child(3){
+	margin-top: 0%;
+	
+}
+.one:nth-child(3) .one_title{
+	top: 0%;
+}
+.one:nth-child(3) .one_title:nth-child(1){
+	background: #8FE0D1;
+	color:#7301ff;
+
+}
+.one:nth-child(3) .one_left:nth-child(4){
+	float: right;
+}
+.one:nth-child(3) .one_left:nth-child(3){
+	margin-top: 0.4rem;
+}
+.one:nth-child(3) .one_left:nth-child(4){
+	margin-top: 0.4rem;
+}
+
+
+/*3f*/
+.one:nth-child(4){
+	margin-top: 0%;
+	
+}
+.one:nth-child(4) .one_title{
+	top: 0%;
+
+}
+.one:nth-child(4) .one_title_three{
+	background: #EDE6B0;
+	color:#118a01;
+	
+}
+.one:nth-child(4) .one_left:nth-child(4){
+	float: right;
+}
+.one:nth-child(4) .one_left:nth-child(3){
+	margin-top: 0.4rem;
+}
+.one:nth-child(4) .one_left:nth-child(4){
+	margin-top: 0.4rem;
+}
+
+
+/*4f*/
+.one:nth-child(5){
+	margin-top: 0%;
+}
+.one:nth-child(5) .one_title_four{
+	background: #A4E4B0;
+	color:#007b62;
+
+}
+.one:nth-child(5) .one_title{
+	top: -1%;
+
+}
+.two{
+	width: 67%;
+	height: auto;
+	margin: 0.6rem auto 0.3rem;
+	text-align: center;
+	position: relative;
+}
+.two .two_title{
+	min-width: 150px;
+	background: #A4E4B0;
+	font-size: 0.5rem;
+	font-family: 微软雅黑;
+	position: absolute;
+	top: -19%;
+	left: 50%;
+	transform:translateX(-50%); 
+	color: #118a01;
+	padding: 0 0.2rem;
+	text-align: center;
+	z-index: 999;
+}
+.two img{
+	width: 90%;
+	height: auto;
+	
+}
+.three{
+	width:67%; 
+	height: 3rem!important;
+	overflow: hidden;
+	position: relative;
+	margin-top: 0.5rem; 
+}
+.three .three_title{
+	min-width: 150px;
+	background: #A4E4B0;
+	font-size: 0.5rem;
+	font-family: 微软雅黑;
+	position: absolute;
+	top: 3%;
+	left: 50%;
+	transform:translateX(-50%); 
+	color: #117CA9;
+	padding: 0 0.2rem;
+	text-align: center;
+	z-index: 999;
+}
+    .swiper-container {
+        height: 3rem;
+        margin: 0 auto;
+		
+    }
+    .swiper-slide {
+    	width: 3.2rem!important;
+    	margin-right: 0.4rem!important;
+        text-align: center;
+       
+        background: #fff;
+        top: 40%;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+       
+    }
+    .btm{
+    	width: 100%;
+    	text-align: center;
+    	padding-top: 0.4rem;
+    }
+    .btm span{
+    	 font-size: 0.4rem;
+    	 color: #333333;
+    }
